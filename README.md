@@ -19,19 +19,25 @@
 Количество и процент дуплицированных прочтений:
 ![Число и процент дупликаций](https://user-images.githubusercontent.com/60548614/154661989-d000fc79-377a-44c0-a00c-ce221170c1d9.png)
 
-Гистограммы с общим уровнем метилирования:
-![8 Cell](https://user-images.githubusercontent.com/60548614/154662235-8baa8b17-023e-4961-a5bf-4b9dfcda4173.png)
-![ICM](https://user-images.githubusercontent.com/60548614/154662247-77507209-789b-47aa-aff0-02ed21fbff09.png)
-![Epiblast](https://user-images.githubusercontent.com/60548614/154662273-6d46fb73-5921-4e0a-aac4-6fa25e43aa3c.png)
+*Бонус: В ноутбуке приведен bash-скрипт для выполнения дедупликации для всех образцов одновременно*
 
 Графики с уровнем метилирования:
 ![image](https://user-images.githubusercontent.com/60548614/154663954-fa84efd0-0b6b-48ac-bb02-0c4c3a280493.png)
 ![image](https://user-images.githubusercontent.com/60548614/154664006-a985b872-0d1b-4c00-a134-e99f2e8263e2.png)
 ![image](https://user-images.githubusercontent.com/60548614/154664509-950b6af6-9813-499d-b6ca-09a4405f1738.png)
 
+Видно, что на этапе Epiblast уровень метилирования является самым высоким. Следующим идет 8Cell, а самая маленькая доля приходится на ICM.
 
 
+Гистограммы с общим уровнем метилирования:
+![8 Cell](https://user-images.githubusercontent.com/60548614/154662235-8baa8b17-023e-4961-a5bf-4b9dfcda4173.png)
+![ICM](https://user-images.githubusercontent.com/60548614/154662247-77507209-789b-47aa-aff0-02ed21fbff09.png)
+![Epiblast](https://user-images.githubusercontent.com/60548614/154662273-6d46fb73-5921-4e0a-aac4-6fa25e43aa3c.png)
 
+Код построения гистограммы на примере "8 Cell"
+![image](https://user-images.githubusercontent.com/60548614/154665765-6ce10aa0-6603-490f-821a-8e42fb3f3a4c.png)
+
+Результат построения гистограмм подталкивает нас к тому же выводу, что и при анализе графиков с уровнем метилирования раньше. Самый высокий уровень метилирования наблюдается у Epiblast: 100% встречается с частотой почти 0.5. Для образца 8Cell уровень метилирования небольшой: 0% с частотой 0.5, а 100% с частотой 0.25. Результат для ICM является самым незначительным: процент 0 встречается с частотой 0.6. Наглядно видно, что уровень метилирования меняется на этапах развития эмбриона.
 
 
 
